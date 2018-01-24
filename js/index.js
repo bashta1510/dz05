@@ -6,8 +6,8 @@ const a = parseFloat(prompt('Enter a:'));
 const b = parseFloat(prompt('Enter b:'));
 const c = parseFloat(prompt('Enter c:'));
 
-let x1 = 0;
-let x2 = 0;
+let x1 = ' ';
+let x2 = ' ';
 
 
 
