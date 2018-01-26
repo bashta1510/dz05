@@ -17,12 +17,13 @@ prn('c' + c);
 
 prn('a * x2 + b * x + c = 0 ');
 
-const det = (b * b) - (4 * a * c);
+//const det = (b * b) - (4 * a * c);
 
 
 prn('det =' + det);
 
 function checkDet(det){
+    let det = (b * b) - (4 * a * c);
     if (det < 0){
         return 'No result';
     } else if (det == 0){
